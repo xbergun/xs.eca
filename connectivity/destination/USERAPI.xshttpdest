@@ -1,0 +1,10 @@
+host = "dummyjson.com";
+port = 443;
+samlProvider = "";
+samlNameId = ["unspecified"];
+samlACS = "";
+samlAttributes = "";
+useSSL = true;
+timeout = 3000000;
+sslHostCheck = true;
+sslAuth = anonymous;

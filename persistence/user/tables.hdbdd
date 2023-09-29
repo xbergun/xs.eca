@@ -1,0 +1,17 @@
+namespace xsdemo.eca.persistence.user;
+
+@Schema: 'ECA' 
+
+Context tables {
+    Entity User {
+            key ID: Integer64;
+            FIRSTNAME: String(64);
+            LASTNAME: String(64);
+            AGE: Integer64;
+            GENDER:String(32);
+            EMAIL: String(64);
+            PHONE_NUMBER: String(32);
+            USERNAME: String(64);
+            PASSWORD: String(255);
+            }
+}; 

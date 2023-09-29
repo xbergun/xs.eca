@@ -1,0 +1,6 @@
+schema           = "ECA";
+increment_by     = 32;
+start_with       = 1000;
+maxvalue         = 99999999;
+cycles           = false;
+depends_on_table = "xsdemo.eca.persistence.user::tables.User";  

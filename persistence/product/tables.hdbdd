@@ -1,0 +1,9 @@
+namespace xsdemo.eca.persistence.product;
+
+@Schema: 'ECA' 
+
+Context tables {
+    Entity Product {
+            key ID: String(32);
+            }
+}; 
